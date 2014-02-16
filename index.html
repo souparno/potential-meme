@@ -1,0 +1,41 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <style type="text/css">
+            .elementToCling {
+                background-color: steelblue;
+                height: 50px;
+                width: 50px;
+            }
+        </style>
+        <script type="text/javascript" src="engine.js" ></script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Tool Box</legend>
+            <button id="CreateSquare" onclick="new Square().create();">Square</button>
+        </fieldset>
+<fieldset>
+    <legend onmouseup="">Mouse Position</legend>
+     X Position: <input id="MouseXPosition"> &nbsp; 
+     Y Position: <input id="MouseYPosition">
+</fieldset>
+<fieldset>
+    <legend onmouseup="">Element Position</legend>
+     X Position: <input id="eXPosition"> &nbsp; 
+     Y Position: <input id="effYPosition">
+</fieldset>        
+<fieldset>
+    <legend onmouseup="">Mouse Offset</legend>
+     X Position: <input id="offXPosition"> &nbsp; 
+     Y Position: <input id="offYPosition">
+</fieldset>        
+
+    </body>
+</html>
